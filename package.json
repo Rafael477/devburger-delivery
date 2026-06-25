@@ -1,13 +1,13 @@
 {
   "name": "app-de-entrega",
   "version": "1.0.0",
-  "description": "",
+  "description": "Cardápio digital responsivo para delivery de hamburgueria.",
   "main": "script.js",
   "scripts": {
     "dev": "npx tailwindcss -i ./styles/styles.css -o ./styles/output.css --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rafael Aniceto da Silva do Nascimento",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
