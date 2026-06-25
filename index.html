@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Entregas Vip's</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
+        <div class="flex flex-col items-center justify-center w-full h-full bg-black bg-opacity-40">
+            <img src="./assets/hamb-1.png" alt="Logo DevBurguer"
+                class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-300" />
+
+            <h1 class="text-2xl mt-4 mb-2 font-bold text-white">DevBurguer</h1>
+
+            <span class="text-white font-medium">Rua dos Entregadores, 159 - Engenheiro Pedreira / Japeri - RJ</span>
+
+            <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
+                <span class="text-white font-medium">Seg á Dom - 18:00 as 22:00</span>
+            </div>
+        </div>
+    </header>
+    <!-- FIM HEADER -->
+
+    <h2 class="text-2xl md:text-3xl font-bold mt-9 mb-6 text-center">Conheça Nosso Menu</h2>
+
+    <!-- Menu -->
+    <div id="menu">
+        <main class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-7 mx-auto max-w-7xl px-16 mb-16">
+
+            <!-- Produtos -->
+            <div class="flex gap-2">
+                <img src="./assets/hamb-1.png" 
+                     alt="Hambúrguer"
+                     class="w-28 h-28 rounded-md hover:scale-110 duration-300 hover:-rotate-2" />
+
+                <div>
+                    <h3 class="font-bold">Hambúrguer Smash</h3>
+                    <p class="text-gray-600 text-sm">Delicioso hambúrguer com queijo, alface, tomate e molho especial.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="text-green-600 font-semibold text-lg">R$ 29,90</p>
+                        <button 
+                        class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                        data-name="Hambúrguer Smash"
+                        data-price="29.90">
+
+                            <i class="fa fa-cart-plus text-lg text-white hover:text-green-400"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- Fim Produtos -->
+
+            <!-- Produtos -->
+            <div class="flex gap-2">
+                <img src="./assets/hamb-2.png" 
+                     alt="Hambúrguer Duplo"
+                     class="w-28 h-28 rounded-md hover:scale-110 duration-300 hover:-rotate-2" />
+
+                <div>
+                    <h3 class="font-bold">Hambúrguer Duplo + Bacon</h3>
+                    <p class="text-gray-600 text-sm">Delicioso hambúrguer com queijo, carne, Bacon, tomate e molho especial.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="text-green-600 font-semibold text-lg">R$ 25,90</p>
+                        <button 
+                        class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                        data-name="Hambúrguer Duplo + Bacon"
+                        data-price="25.90">
+
+                            <i class="fa fa-cart-plus text-lg text-white hover:text-green-400"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- Fim Produtos -->
+
+            <!-- Produtos -->
+            <div class="flex gap-2">
+                <img src="./assets/hamb-3.png" 
+                     alt="Hambúrguer Duplo Chedda"
+                     class="w-28 h-28 rounded-md hover:scale-110 duration-300 hover:-rotate-2" />
+
+                <div>
+                    <h3 class="font-bold">Hambúrguer Duplo Chedda</h3>
+                    <p class="text-gray-600 text-sm">Delicioso hambúrguer com muito queijo chedda e molho especial.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="text-green-600 font-semibold text-lg">R$ 19,90</p>
+                        <button 
+                        class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                        data-name="Hambúrguer Duplo Chedda"
+                        data-price="19.90">
+
+                            <i class="fa fa-cart-plus text-lg text-white hover:text-green-400"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- Fim Produtos -->
+
+            <!-- Produtos -->
+            <div class="flex gap-2">
+                <img src="./assets/hamb-4.png" 
+                     alt="Hambúrguer Sticket"
+                     class="w-28 h-28 rounded-md hover:scale-110 duration-300 hover:-rotate-2" />
+
+                <div>
+                    <h3 class="font-bold">Hambúrguer Sticket</h3>
+                    <p class="text-gray-600 text-sm">Delicioso hambúrguer com alface, cebola, tomate picles.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="text-green-600 font-semibold text-lg">R$ 16,90</p>
+                        <button 
+                        class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                        data-name="Hambúrguer Sticket"
+                        data-price="16.90">
+
+                            <i class="fa fa-cart-plus text-lg text-white hover:text-green-400"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- Fim Produtos -->
+
+            <!-- Produtos -->
+            <div class="flex gap-2">
+                <img src="./assets/hamb-5.png" 
+                     alt="Hambúrguer Mix"
+                     class="w-28 h-28 rounded-md hover:scale-110 duration-300 hover:-rotate-2" />
+
+                <div>
+                    <h3 class="font-bold">Hambúrguer Mix</h3>
+                    <p class="text-gray-600 text-sm">Delicioso hambúrguer com queijo, alface, carne, tomate e molho especial.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="text-green-600 font-semibold text-lg">R$ 27,90</p>
+                        <button 
+                        class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                        data-name="Hambúrguer Mix"
+                        data-price="27.90">
+
+                            <i class="fa fa-cart-plus text-lg text-white hover:text-green-400"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- Fim Produtos -->
+
+            <!-- Produtos -->
+            <div class="flex gap-2">
+                <img src="./assets/hamb-6.png" 
+                     alt="Hambúrguer Acebolado"
+                     class="w-28 h-28 rounded-md hover:scale-110 duration-300 hover:-rotate-2" />
+
+                <div>
+                    <h3 class="font-bold">Hambúrguer Acebolado</h3>
+                    <p class="text-gray-600 text-sm">Delicioso hambúrguer com queijo, cebola, carne, alface, tomate e molho especial.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="text-green-600 font-semibold text-lg">R$ 15,90</p>
+                        <button 
+                        class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                        data-name="Hambúrguer Acebolado"
+                        data-price="15.90">
+
+                            <i class="fa fa-cart-plus text-lg text-white hover:text-green-400"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- Fim Produtos -->
+            <!-- Produtos -->
+            <div class="flex gap-2">
+                <img src="./assets/hamb-7.png" 
+                     alt="Hambúrguer Snicket's com Carne"
+                     class="w-28 h-28 rounded-md hover:scale-110 duration-300 hover:-rotate-2" />
+
+                <div>
+                    <h3 class="font-bold">Hambúrguer Snicket's com Carne</h3>
+                    <p class="text-gray-600 text-sm">Delicioso hambúrguer com queijo, alface, tomate e molho especial.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="text-green-600 font-semibold text-lg">R$ 28,90</p>
+                        <button 
+                        class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                        data-name="Hambúrguer Snicket's com Carne"
+                        data-price="28.90">
+
+                            <i class="fa fa-cart-plus text-lg text-white hover:text-green-400"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- Fim Produtos -->
+            <!-- Produtos -->
+            <div class="flex gap-2">
+                <img src="./assets/hamb-8.png" 
+                     alt="Hambúrguer SaladaMix"
+                     class="w-28 h-28 rounded-md hover:scale-110 duration-300 hover:-rotate-2" />
+
+                <div>
+                    <h3 class="font-bold">Hambúrguer SaladaMix</h3>
+                    <p class="text-gray-600 text-sm">Delicioso hambúrguer com alface, tomate e molho especial.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="text-green-600 font-semibold text-lg">R$ 10,90</p>
+                        <button 
+                        class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                        data-name="Hambúrguer SaladaMix"
+                        data-price="10.90">
+
+                            <i class="fa fa-cart-plus text-lg text-white hover:text-green-400"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- Fim Produtos -->
+        </main>
+        <!-- Bebidas -->
+        <div class="mx-auto max-w-7xl px-16 my-2">
+            <h2 class="font-bold text-3xl text-center justify-between">
+                bebidas
+            </h2>
+        </div>
+        <!-- Grid de Bebidas -->
+         <div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-10 mx-auto max-w-7xl px-16 mb-16" id="menu">
+
+                <!-- Bebida 1 -->
+                <div class="flex gap-2">
+                    <img src="./assets/refri-1.png" 
+                         alt="Refrigerante"
+                         class="w-28 h-28 rounded-md hover:scale-110 duration-300 hover:-rotate-2" />
+
+                    <div class="w-full">
+                        <h3 class="font-bold">Refrigerante Lata 350ml</h3>
+                        <p class="text-gray-600 text-sm">Refrigerante geladinho para acompanhar seu lanche.</p>
+
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            <p class="text-green-600 font-semibold text-lg">R$ 5,90</p>
+                            <button 
+                            class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                            data-name="Refrigerante 350ml"
+                            data-price="5.90">
+
+                                <i class="fa fa-cart-plus text-lg text-white hover:text-green-400"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim Bebida 1 -->
+
+                <!-- Bebida 2 -->
+                <div class="flex gap-2">
+                    <img src="./assets/refri-2.png" 
+                         alt="Refrigerante"
+                         class="w-28 h-28 rounded-md hover:scale-110 duration-300 hover:-rotate-2" />
+
+                    <div class="w-full">
+                        <h3 class="font-bold">Refrigerante Lata 350ml</h3>
+                        <p class="text-gray-600 text-sm">Refrigerante geladinho para acompanhar seu lanche.</p>
+
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            <p class="text-green-600 font-semibold text-lg">R$ 4,90</p>
+                            <button 
+                            class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                            data-name="Refrigerante 350ml"
+                            data-price="4.90">
+
+                                <i class="fa fa-cart-plus text-lg text-white hover:text-green-400"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim Bebida 2 -->
+
+                <!-- Bebida 3 -->
+                <div class="flex gap-2">
+                    <img src="./assets/coca-cola-2-1-5-removebg-preview.png" 
+                         alt="Refrigerante"
+                         class="w-28 h-28 rounded-md hover:scale-110 duration-300 hover:-rotate-2" />
+
+                    <div class="w-full">
+                        <h3 class="font-bold">Refrigerante Coca Cola 1.5L</h3>
+                        <p class="text-gray-600 text-sm">Refrigerante geladinho para acompanhar seu lanche.</p>
+
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            <p class="text-green-600 font-semibold text-lg">R$ 9,90</p>
+                            <button 
+                            class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                            data-name="Refrigerante Coca Cola 1.5L"
+                            data-price="9.90">
+
+                                <i class="fa fa-cart-plus text-lg text-white hover:text-green-400"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim Bebida 3 -->
+
+                <!-- Bebida 4 -->
+                <div class="flex gap-2">
+                    <img src="./assets/refrigerante-guarana-antarctica-garrafa-15-regular-1-removebg-preview.png" 
+                         alt="Refrigerante"
+                         class="w-28 h-28 rounded-md hover:scale-110 duration-300 hover:-rotate-2" />
+
+                    <div class="w-full">
+                        <h3 class="font-bold">Refrigerante Guaraná Antarctica 1.5L</h3>
+                        <p class="text-gray-600 text-sm">Refrigerante geladinho para acompanhar seu lanche.</p>
+
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            <p class="text-green-600 font-semibold text-lg">R$ 7,90</p>
+                            <button 
+                            class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                            data-name="Refrigerante Guaraná Antarctica 1.5L"
+                            data-price="7.90">
+
+                                <i class="fa fa-cart-plus text-lg text-white hover:text-green-400"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim Bebida 4 -->
+         </div>
+
+        <!-- Fim Grid de Bebidas -->
+    </div>
+
+
+    <!-- Fim Menu -->
+
+</body>
+
+</html>
