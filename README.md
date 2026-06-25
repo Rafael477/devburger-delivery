@@ -3,7 +3,7 @@
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow) ![Stack](https://img.shields.io/badge/stack-HTML%20%2B%20CSS%20%2B%20JavaScript-blue)
 
 ## Demo
-Acesse a versão publicada: [App de Entrega](https://rafael477.github.io/App-de-entrega/)
+Acesse a versão publicada: [DevBurger Delivery](https://rafael477.github.io/devburger-delivery/)
 
 ## Descrição
 Aplicação web estática para apresentação de cardápio de hamburgueria, com layout visual para produtos, bebidas e experiência de compra em página única.
